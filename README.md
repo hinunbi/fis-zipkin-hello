@@ -19,8 +19,6 @@ The zipkin connection url environment variable, "ZIPKIN_ENDPOINT" or Java system
 
     mvn spring-boot:run -DZIPKIN_ENDPOINT=http://zipkinhost:9411/api/v2/spans
 
-When the example runs in lo, you can use the OpenShift client tool to inspect the status
-
 
 ### Running the example in OpenShift
 
