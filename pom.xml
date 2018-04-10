@@ -59,6 +59,7 @@
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-spring-boot-starter</artifactId>
     </dependency>
+    <!-- zipkin -->
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-zipkin-starter</artifactId>
@@ -67,7 +68,6 @@
       <groupId>io.zipkin.reporter2</groupId>
       <artifactId>zipkin-sender-okhttp3</artifactId>
     </dependency>
-
     <dependency>
       <groupId>io.zipkin.brave</groupId>
       <artifactId>brave-core</artifactId>
