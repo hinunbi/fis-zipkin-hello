@@ -15,9 +15,9 @@ The example can be built with
 
 The example can be built and run on local host:
 
-The zipkin connection url environment variable, "CAMEL_ZIPKIN_ENDPOINT" or Java system property should be set when running the example.
+The zipkin connection url environment variable, "ZIPKIN_ENDPOINT" or Java system property should be set when running the example.
 
-    mvn spring-boot:run -DCAMEL_ZIPKIN_ENDPOINT=http://zipkinhost:9411/api/v2/spans
+    mvn spring-boot:run -DZIPKIN_ENDPOINT=http://zipkinhost:9411/api/v2/spans
 
 When the example runs in lo, you can use the OpenShift client tool to inspect the status
 
