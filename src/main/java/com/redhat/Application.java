@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-//@CamelZipkin
 @ComponentScan({"com.redhat"})
 public class Application extends RouteBuilder {
 
