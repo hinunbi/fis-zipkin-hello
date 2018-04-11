@@ -67,6 +67,7 @@
     <dependency>
       <groupId>io.zipkin.reporter2</groupId>
       <artifactId>zipkin-sender-okhttp3</artifactId>
+
     </dependency>
     <dependency>
       <groupId>io.zipkin.brave</groupId>
@@ -103,11 +104,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.fabric8</groupId>
-      <artifactId>fabric8-arquillian</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>

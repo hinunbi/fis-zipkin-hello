@@ -21,7 +21,7 @@ public class Application extends RouteBuilder {
 
 
     from("timer://foo?period=5000")
-        .setBody().simple("Hello World at ${date:now:YYYY-MM-dd hh:mm:ss,SSS}")
+        .setBody().simple("Hello World at ${date:now:yyyy-MM-dd HH:mm:ss,SSS}")
         .log("first >>> ${body}")
         .to("direct:second");
 
